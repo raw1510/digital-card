@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');    
+body{
+    margin: 0px;
+}
+.card{
+    width: 40%;
+    margin:  50px 200px auto;
+    overflow: hidden;
+    height: 500px;
+    border-radius: 20px;
+}
+.front{
+    position: absolute;
+    width: 40%;
+    height: 500px;
+    animation: krish 2s forwards;
+    animation-delay: 2s;
+    background: url("eon-image.jpg") no-repeat center;
+    background-size:cover;
+    text-align: center;
+    border-radius: 20px;
+}
+@keyframes krish {
+    0%{
+        margin-top: 0px;
+    }
+    100%{
+        margin-top: 580px;
+    }
+}
+.back{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    background-color: black;
+    color: #F8A1D1;
+    font-family: 'Bebas Neue';
+    border: 1px solid black;
+    height: 500px;
+    overflow: hidden;
+    animation: jai 2s forwards;
+    animation-delay: 2s;
+    border-radius: 20px;
+}
+@keyframes jai {
+    0%{
+        margin-top: 1000px;
+        
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+.intro{
+    font-size: 55px;
+    margin-top: 32px;
+}
+.tagline{
+    margin-top: -38px;
+    font-size: 20px;
+}
+.products{
+    font-size: 25px;
+    font-feature-settings: "abvm";
+}
+.phone{
+    margin-top: 0px;
+    font-size: 25px;
+}
+.telephone{
+    text-decoration: none;
+    color: #F8A1D1;
+}
+.telephone:hover{
+    color: white;
+}
+#left:hover{
+    color: white;
+}
+#manish{
+    margin-left: -224px;
+}
+#left{
+    margin-top: -55px;
+    margin-left: 58px;
+}
+.website{
+    margin-top: -10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.website a:hover{
+    color: white;
+}
+.website a{
+    text-decoration: none;
+    color: #F8A1D1;
+}
+.inner-website{
+    float: left;
+    margin-left: 33%;
+}
+.hand{
+    float: left;
+}
+.ani{
+    animation: left 1.5s ;
+    animation-delay: 2s;
+    animation-iteration-count: 200;
+    color: #F8A1D1;
+}
+@keyframes left {
+    0%{
+        padding-left: 5px;
+    }
+    50%{
+        padding-left: 15px;
+    }
+    100%{
+        padding-left: 5px;
+    }
+}
+.address a{
+    text-decoration: none;
+    color: #F8A1D1;
+}
+.address a:hover{
+    color: white;
+}
+.address{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.save{
+    float: right;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-top: 16px;
+}
+.save a{
+    text-decoration: none;
+    color: #F8A1D1;
+}

@@ -1,0 +1,154 @@
+@media (min-width:320px) and (max-width:334px) {
+    .card{
+        width: 95%;
+        height: 550px;
+        border-radius: 20px;
+        margin:10px auto;
+    }
+    .front{
+        width: 95%;
+        height: 550px;
+    }
+    .back{
+        height: 550px;
+    }
+    .intro{
+        font-size: 55px;
+        margin-top: 8px;
+    }
+    .save{
+        float: right;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+    #manish{
+        margin-left: -166px;
+    }
+    #left{
+        margin-top: -55px;
+        margin-left: 101px;
+    }
+    .inner-website{
+        margin-left: 24%;
+    }
+}
+@media (min-width:335px) and (max-width:480px){
+    .card{
+        width: 95%;
+        height: 550px;
+        border-radius: 20px;
+        margin:  10px auto;
+    }
+    .front{
+        width: 95%;
+        height: 500px;
+    }
+    .back{
+        height: 500px;
+    }
+    .intro{
+        font-size: 55px;
+        margin-top: 14px;
+    }
+    .save{
+        float: right;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+    .inner-website{
+        margin-left: 31%;
+    }
+}
+@media (min-width:481px) and (max-width:680px){
+    .card{
+        width:80%;
+        margin-left: 11%;
+        margin-top: 10px;
+    }
+    .front{
+        width: 80%;
+    }
+    .save{
+        float: right;
+        overflow: hidden;
+        margin-right: 10px;
+        margin-top: 0px;
+    }
+    .inner-website{
+        margin-left: 31%;
+    }
+}
+@media (min-width:680px) and (max-width:780px){
+    .card{
+        width:72%;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+    .front{
+        width: 72%;
+    }
+    .inner-website{
+        margin-left: 33%;
+    }
+}
+ @media (min-width:780px) and (max-width:823px){
+    .card{
+        width:72%;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+    .front{
+        width: 72%;
+    }
+    .inner-website{
+        margin-left: 36%;
+    }
+    .address{
+    margin-top: 32px;
+    font-size: 25px;
+    }
+}
+@media (min-width:280px) and (max-width:320px){
+    .card{
+        width: 95%;
+        margin: 10px auto;
+    }
+    .front{
+        width: 95%;
+    }
+    .intro{
+        font-size: 41px;
+        margin-top: 13px;
+    }
+    .back{
+        font-size: 55px;
+        
+    }
+    .tagline{
+        margin-top: -32px;
+        font-size: 16px;
+    }   
+    .products{
+        font-size: 21px;
+    }
+    .save{
+        float: right;
+        overflow: hidden;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    #manish{
+        margin-left: -166px;
+    }
+    #left{
+        margin-top: -55px;
+        margin-left: 101px;
+    }
+    .inner-website{
+        margin-left: 23%;
+    }
+    .address{
+        margin-top: -20px;
+    font-size: 25px;
+    }
+}
