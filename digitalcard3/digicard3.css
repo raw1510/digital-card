@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+	padding:0;
+}
+
+body{
+    margin: 0px;
+	
+}
+.inner-container{
+	margin: 1% 40% 6% 0
+}
+.blue{
+    margin: 1% 0% 0% 55%;
+    width: 118px;
+}
+.flex{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 72px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: -15px;
+    cursor: pointer;
+    float: left;
+}
+.nav-bar{
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid rgb(0, 0, 0,0.2);
+    text-align: center;
+    padding: 3px 0px 2px 0px;
+}
+.nav-bar button{
+    background: none;
+    border: none;
+    cursor:pointer;
+    margin: 19px 0px 10px 0px;
+}
+.intro{
+    text-align: center;
+    background: white;
+    width: 480px;
+    height: 599px;
+    margin: 11px 0px 0px 122px;
+    border-radius: 5px;
+}
+.intro img{
+    width: 200px;
+    height: 129px;
+    margin-top: 15px;
+}
+
+#share{
+    border: 2px double grey;
+    cursor: pointer;
+}
+.owner i{
+    letter-spacing: 10px;
+    font-size: large;
+}
+.owner i:hover{
+    color: #fed03d;
+    cursor: pointer;
+}
+.owner p{
+    margin-top: -26px;
+}
+.owner h3{
+    font-size: 23px;
+    margin-top: -20px;
+}
+.owner h2{
+    font-size: 25px;
+}
+.btn1{
+    width: 100%;
+    overflow: hidden;
+}
+
+.btn2{
+    width: 100%;
+    overflow: hidden;
+}
+.btn-content{
+    width: 40%;
+    float: left;
+    margin-left: 20px;
+    background-color: black;
+    border: 1px dashed black;
+}
+.btn-content:hover{
+    background: none;
+    color: black;
+}
+.space{
+    margin-top: 10px;
+}
+.link{
+    margin-top: 115px;
+}
+.link a{
+    text-decoration: none;
+    color: #fed03d;
+}
+
+
+.gallery{
+	background: white;
+    width: 480px;
+    height: 599px;
+    margin: 11px 0px 0px 109px;
+    border-radius: 5px;	
+}
+.company-profile{
+	background: white;
+    width: 480px;
+    height: 599px;
+    margin: 11px 0px 0px 109px;
+    border-radius: 5px;	
+}
+.Review{
+	background: white;
+    width: 480px;
+    height: 599px;
+    margin: 11px 0px 0px 109px;
+    border-radius: 5px;
+}
+.Inquiry{
+	background: white;
+    width: 480px;
+    height: 599px;
+    margin: 11px 0px 0px 109px;
+    border-radius: 5px;
+}
+hr{
+	position: absolute;
+    width: 397px;
+    margin-left: 2px;
+    opacity: 20%;
+}
+text{
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+    margin-left: 7%;
+	display:block;
+}
+.links{
+	margin: 6% 1% 0% 0%;
+}
+.links button{
+	width: 45%;
+	height: 50px;
+    margin: 3% 0% 0% 0%;
+
+}
+
+						/*---------------- Basic-Info -----------------*/
+
+.basic-info{
+    background: white;
+    width: 480px;
+    height: 599px;
+    margin: 11px 0px 0px 109px;
+    border-radius: 5px;	
+}
+#name-ul{
+    margin-left:51px;
+}
+.name-in-basic{
+    margin-left: 38px;
+}
+.name-in-basic ul li{
+    padding: 10px;
+}
+.designation-basicinfo{
+    margin-left: 10px;
+}
+.designation-basicinfo ul li{
+    padding: 10px;
+}
+.list1{
+    display: flex;
+}
+.list2{
+    text-align: center;
+}
+.list2 ul li{
+    list-style: none;
+}
+.list1 ul li{
+    list-style: none;
+}
+						/* -----------------Gallery------------------------ */
+.gallery img{
+	width:100%;
+}
+						/*---------------- Company Profile -----------------*/
+.company-profile p{
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 0;
+    margin: 9% 0% 25px 9%;
+}
+.list p{
+	margin: 9% 0% 25px 20%;
+}
+						/* -------------------Review------------------ */
+.Review span{
+	margin: 0% -10% 0% 15%;
+}
+.checked{
+	color:orange;
+}
+
+						/*---------------- Inquiry -----------------*/
+
+.row input ,textarea{
+		font-family: 'Poppins', sans-serif;
+}
+
+						/* ---------------responsive-------------- */
+@media(min-width: 320px) and (max-width: 480px){
+	.flex{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 72px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: -15px;
+    cursor: pointer;
+    float: left;
+}
+    .intro{
+        text-align: center;
+        background: white;
+        width: 94%;
+        height: 599px;
+        border-radius: 5px;
+    }
+	.basic-info{
+		width: 166%;
+	}
+	.gallery{
+		width: 166%;
+	}
+	.company-profile{
+		width: 166%;
+	}
+	.Review{
+		width: 166%;
+	}
+	.Inquiry{
+		width: 166%;
+	}
+    
+    #black{                     /*form*/
+        overflow: hidden;
+        width: 100%;
+        
+    }
+    
+    .blue{                      /* country code*/
+        width: 118px;
+        float: left;
+    }
+    .pink ,.grey{
+        margin-left: 10px;
+    }
+                        /*-----------------basic-info------------*/
+    .basic-info ,.gallery ,.company-profile, .Review, .Inquiry{
+        background: white;
+        width: 100%;
+        height: 599px;
+        border-radius: 5px;	
+    }
+    
+                        /* ------------------Review-----------------*/
+.review-textarea{
+    margin: -3.5px -1.5px 0px 50px;
+    }
+						/* -----------------Gallery------------------------ */	
+.gallery img{
+	width: 42%;
+}
+}
